@@ -54,6 +54,11 @@ ansible-core 2.13.4 - python 3.10
 ansible-core 2.15.1 - python 3.11
 ## Note
 
+I have commented setting root password in tasks/main.yml, if you want to configure it you can uncomment it.
+
+
+This script will enable Selinux for you
+
 This role will make changes to the system which may have unintended consequences. This is not an auditing tool but rather a remediation tool to be used after an audit has been conducted.
 
 Check Mode is not supported! The role will complete in check mode without errors, but it is not supported and should be used with caution. A compliance scanner should be used for compliance checking over check mode.
