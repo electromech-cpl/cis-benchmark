@@ -47,10 +47,27 @@ To apply both level 1 and level 2 CIS security configurations, navigate to `fold
 cd foldername/roles/ubuntu22.04
 ansible-playbook main.yml
 ```
+## Role Variables
 
+This role is designed so the end user should not have to edit the tasks themselves. All customizing should be done via the defaults/main.yml file or with extra vars within the project, job, workflow, etc.
+
+## Technical Dependencies:
+
+Running Ansible/Tower setup (this role is tested against Ansible version 2.12.1 and newer)
+Python3 Ansible run environment
+goss >= 0.4.4 (If using for audit)
 ## Note
 
 Review the playbook and configuration files before execution to ensure compatibility and desired outcomes.
+
+## Pipeline Testing
+
+uses:
+
+ansible-core 2.12
+ansible collections - pulls in the latest version based on the requirements file
+runs the audit using the devel branch
+This is an automated test that occurs on pull requests into devel
 
 ## Contributions
 
