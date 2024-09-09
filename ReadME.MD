@@ -54,5 +54,3 @@ This script is licensed under the [MIT License](LICENSE).
 
 For any questions or additional support, please contact us via the [GitHub Issues page](https://github.com/vireshsolanki/cis-benchmark-ansible/issues) or reach out to [support135@electromech.info](mailto:support135@electromech.info).
 ```
-
-You can copy and paste this content into your `README.md` file.
