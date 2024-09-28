@@ -217,19 +217,19 @@ amzn2023cis_rule_1_3_3: true
 amzn2023cis_rule_1_4_1: false
 amzn2023cis_rule_1_4_2: false
 # Additional Process Hardening
-amzn2023cis_rule_1_5_1: false
+amzn2023cis_rule_1_5_1: true
 amzn2023cis_rule_1_5_2: true
 amzn2023cis_rule_1_5_3: true
 amzn2023cis_rule_1_5_4: true
 # Configure SELinux
-amzn2023cis_rule_1_6_1_1: false
-amzn2023cis_rule_1_6_1_2: false
-amzn2023cis_rule_1_6_1_3: false
-amzn2023cis_rule_1_6_1_4: false
-amzn2023cis_rule_1_6_1_5: false
-amzn2023cis_rule_1_6_1_6: false
-amzn2023cis_rule_1_6_1_7: false
-amzn2023cis_rule_1_6_1_8: false
+amzn2023cis_rule_1_6_1_1: true
+amzn2023cis_rule_1_6_1_2: true
+amzn2023cis_rule_1_6_1_3: true
+amzn2023cis_rule_1_6_1_4: true
+amzn2023cis_rule_1_6_1_5: true
+amzn2023cis_rule_1_6_1_6: true
+amzn2023cis_rule_1_6_1_7: true
+amzn2023cis_rule_1_6_1_8: true
 # Command Line Warning Banners
 amzn2023cis_rule_1_7_1: true
 amzn2023cis_rule_1_7_2: true
@@ -243,8 +243,8 @@ amzn2023cis_rule_1_9: true
 ## Section 2 rules
 # Section 2 is Services (Special Purpose Services, and service clients)
 # Configure Time Synchronization (chrony)
-amzn2023cis_rule_2_1_1: false
-amzn2023cis_rule_2_1_2: false
+amzn2023cis_rule_2_1_1: true
+amzn2023cis_rule_2_1_2: true
 # Configure Special Purpose Services
 amzn2023cis_rule_2_2_1: true
 amzn2023cis_rule_2_2_2: true
